@@ -27,7 +27,7 @@ public class CalculPrixBillet {
 	
 	public Integer calculer(String depart, String arrivee, String classe) {
 		calculPrixUnitaire.setDepart(depart);
-		calculPrixUnitaire.setArrivee(arrivee);;
+		calculPrixUnitaire.setArrivee(arrivee);
 		Integer varPrixUnitaire = calculPrixUnitaire.generer();
 		switch(classe) {
 		case "eco":
